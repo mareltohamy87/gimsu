@@ -1,0 +1,61 @@
+@import url('./grid.css');
+@import url('./inter-font.css');
+@import url('./poppins-font.css');
+
+/*__________________________ Global _____________________________*/
+
+$font-1:"Inter", sans-serif ;
+.font-inter {
+font-family: $font-1;
+}
+
+$font-2:"Poppins";
+.font-poppins {
+    font-family: $font-2;
+}
+
+$white:#FFF;
+.white {
+    color:$white;
+}
+
+$systemGrey-300:#E0E0E0;
+.systemGrey-300 {
+    color:$systemGrey-300;
+}
+
+$light-primary-origin: #3563E9;
+.light-primary-origin {
+    color:$light-primary-origin;
+}
+
+$typography: #E4DBDB;
+.typography {
+    color:$typography;
+}
+
+$Grey-Secondary: #676868;
+.Grey-Secondary {
+    color:$Grey-Secondary;
+}
+
+$Primary: #D7FB00;
+.Primary {
+    color:$Primary;
+}
+
+$black: #000;
+.black  {
+    color:$black;
+}
+
+$light-black: #141414;
+.light-black {
+    color:$light-black;
+}
+
+$background-color: #0D0D0D;
+.background-color {
+    color:$background-color;
+}
+
