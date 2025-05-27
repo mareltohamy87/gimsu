@@ -6,7 +6,7 @@
 
 $font-1:"Inter", sans-serif ;
 .font-inter {
-font-family: $font-1;
+    font-family: $font-1;
 }
 
 $font-2:"Poppins";
@@ -73,12 +73,176 @@ header{
 
 /*______________ W H Y  C H O O S E  U S   E M A N ____________ */
 .choose-us-section {
+    padding-top: 96px;
+    background: $background-color;
+    padding-bottom: 96px;
+    .title-choose{
+        color: $white;
+        text-align: center;
+        font-family: $font-1;
+        font-size: 36px;
+        font-weight: 500;
+        padding-bottom: 24px;
+    }
+    .desc-choose{
+        color: $Grey-Secondary;
+        text-align: center;
+        font-family: $font-1;
+        font-size: 16px;
+        font-weight: 500;
+        padding-bottom: 32px;
+    }
+    .row{
+        border-radius: 32px;
+        background: #171717;
+        align-items: center;
+        justify-content: space-between;
+        .list-choose{
+            gap: 64px;
+            display: flex;
+            flex-direction: column;
+            .item-list-choose{
+                display: flex;
+                gap: 12px;
+                .img-choose{
+                    border-radius: 50%;
+                    border: 1px solid rgba(255, 255, 255, 0.15);
+                    background: radial-gradient(146.13% 118.42% at 50% -15.5%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 99.59%), linear-gradient(180deg, rgba(46, 51, 90, 0.00) 0%, rgba(28, 27, 51, 0.10) 100%);
+                    box-shadow: 0px 0px 100px 0px rgba(204, 215, 255, 0.15) inset, 0px 5px 10px 0px rgba(0, 0, 0, 0.05), 0px 15px 30px 0px rgba(0, 0, 0, 0.05), 0px 30px 60px 0px rgba(0, 0, 0, 0.10);
+                    backdrop-filter: blur(10px);
+                    padding: 13.15px;
+                    max-width: 55px;
+                    max-height: 55px;
+                   
+                }
+                .list-details{
+                    max-width: 455px;
+                    .details-title{
+                    color: $white;
+                    font-family: $font-1;
+                    font-size: 18px;
+                    font-weight: 500;
+                    }
+                    p{
+                    color: $Grey-Secondary;
+                    font-family:  $font-1;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 180%; 
+                    }
+                }
+                
+            }
+        }
+
+        .img-item-choose{
+            img{display: block;}
+        }
+    }
 
 }
 
 /*______________ H A P P Y  C L I E N T S   E M A N ____________ */
 .happy-clients-section {
+    background: $background-color;
+    padding-bottom: 96px;
+    h2{
+        color: $white;
+        text-align: center;
+        font-family: $font-1;
+        font-size: 36px;
+        font-weight: 500;
+        padding-bottom: 24px;
+    }
+    .row{
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 32px;
 
+        .slides{
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .item-details{
+                max-width: 610px;
+                padding: 14px 32px;
+                border-radius: 32px;
+                border: 1px solid rgba(255, 255, 255, 0.15);
+                background: radial-gradient(146.13% 118.42% at 50% -15.5%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 99.59%), linear-gradient(180deg, rgba(46, 51, 90, 0.00) 0%, rgba(28, 27, 51, 0.10) 100%);
+                box-shadow: 0px 0px 100px 0px rgba(204, 215, 255, 0.15) inset, 0px 5px 10px 0px rgba(0, 0, 0, 0.05), 0px 15px 30px 0px rgba(0, 0, 0, 0.05), 0px 30px 60px 0px rgba(0, 0, 0, 0.10);
+                backdrop-filter: blur(10px);
+
+                .client-details{
+                    display: flex;
+                    align-items: center;
+                    gap: 6px;
+                    padding-bottom: 16px;
+
+                    img{display: block;}
+
+                    h3{
+                        color: $white;
+                        font-family: $font-1;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+
+                    p{
+                        color: $Grey-Secondary;
+                        font-family: $font-1;
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+                }
+
+                img{
+                    padding-bottom: 12px;
+                    display: block;
+                }
+
+                p{
+                    color: $white;
+                    font-family: $font-1;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 180%; 
+                }
+            }
+        }
+        .left-arrow{
+            border-radius: 33px;
+            background:  #D7FB00;
+            position: absolute;
+            padding: 10px;
+            left: 27%;
+            transform: translateY(50%);
+        }
+
+        .right-arrow{
+            border-radius: 33px;
+            background:  #D7FB00;
+            position: absolute;
+            padding: 10px;
+            right:28%;
+            transform: translateY(50%);
+        }
+    } 
+
+    .reviews{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 32px;
+        gap:12px;
+        .clients{display: block;}
+        .star{display: block;}
+        p{color: $white;
+            font-family: $font-1;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 180%;}
+    }
 }
 
 
