@@ -31,6 +31,10 @@ The project was created to practice layout design, responsive structure, and sty
 - **CSS3 (Flexbox + Grid System)**
 
 ---
+## 📸 Preview
+You can view the live demo here:  
+👉 *(https://mareltohamy87.github.io/gimsu/)*
+---
 
 ## 📬 Contact
 If you have any feedback or suggestions, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/mariam-mohamed-el-tohamy-bb7606398/).  
